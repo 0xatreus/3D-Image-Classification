@@ -51,28 +51,32 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
 
 ## ⚙️ Installation & Setup
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/0xatreus/3D-Image-Classification.git
    cd 3D-Image-Classification
    ```
 
-2. Create a virtual environment:
+3. Create a virtual environment:
+  
   ```python
   python3 -m venv venv
   source venv/bin/activate
   ```
 
 3. Install dependencies:
+  
   ```python
   pip install -r requirements.txt
   ```
 
 4. Run the Flask app:
+  
   ```python
   python app.py
   ```
 
-📊 Dataset
+## 📊 Dataset
   ```
   ModelNet10 / ModelNet40
 
@@ -82,7 +86,7 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
 
   Download: ModelNet Dataset
   ```
-🛠️ Tech Stack
+## 🛠️ Tech Stack
   ```
   Python 3.10+
   
@@ -94,7 +98,7 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
   
   HTML/CSS/JS (Frontend for demo)
   ```
-🌟 Future Work
+## 🌟 Future Work
   ```
   Add support for ModelNet40 full benchmark
   
