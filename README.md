@@ -56,58 +56,56 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
    ```bash
    git clone https://github.com/0xatreus/3D-Image-Classification.git
    cd 3D-Image-Classification
-
+   ```
 
 Create a virtual environment:
-
-python3 -m venv venv
-source venv/bin/activate
-
+  ```python
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
 
 Install dependencies:
-
-pip install -r requirements.txt
-
+  ```python
+  pip install -r requirements.txt
+  ```
 
 Run the Flask app:
-
-python app.py
-
-
-App will be available at: http://127.0.0.1:5000/
+  ```python
+  python app.py
+  ```
 
 📊 Dataset
+  ```
+  ModelNet10 / ModelNet40
 
-ModelNet10 / ModelNet40
+  Popular benchmark datasets for 3D object classification.
 
-Popular benchmark datasets for 3D object classification.
+  Objects represented as meshes, point clouds, and rendered views.
 
-Objects represented as meshes, point clouds, and rendered views.
-
-Download: ModelNet Dataset
+  Download: ModelNet Dataset
 
 🛠️ Tech Stack
-
-Python 3.10+
-
-PyTorch (Deep Learning Framework)
-
-Trimesh + Pyrender (for rendering multi-views)
-
-Flask (Model serving)
-
-HTML/CSS/JS (Frontend for demo)
-
+  ```
+  Python 3.10+
+  
+  PyTorch (Deep Learning Framework)
+  
+  Trimesh + Pyrender (for rendering multi-views)
+  
+  Flask (Model serving)
+  
+  HTML/CSS/JS (Frontend for demo)
+  ```
 🌟 Future Work
-
-Add support for ModelNet40 full benchmark
-
-Experiment with data augmentation techniques
-
-Add Docker containerization for deployment
-
-Integrate GitHub Actions for CI/CD
-
+  ```
+  Add support for ModelNet40 full benchmark
+  
+  Experiment with data augmentation techniques
+  
+  Add Docker containerization for deployment
+  
+  Integrate GitHub Actions for CI/CD
+  ```
 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and distribute.
