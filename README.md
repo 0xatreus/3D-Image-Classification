@@ -1,4 +1,3 @@
-📘 README.md
 # 3D Image Classification Project
 
 A deep learning project focused on **3D object classification**, combining point cloud–based and multi-view neural network architectures.  
