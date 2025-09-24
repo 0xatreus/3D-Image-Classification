@@ -55,15 +55,14 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
    git clone https://github.com/0xatreus/3D-Image-Classification.git
    cd 3D-Image-Classification
    ```
-
-2. Create a virtual environment:
+2. Create a virtual environment
   
   ```python
   python3 -m venv venv
   source venv/bin/activate
   ```
 
-3. Install dependencies:
+3. Install dependencies
   
   ```python
   pip install -r requirements.txt
