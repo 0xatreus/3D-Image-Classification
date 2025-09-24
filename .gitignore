@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Datasets and large files
+data/
+*.h5
+*.npz
+*.npy
+*.obj
+*.off
+*.stl
+
+# Model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Flask / app-specific
+instance/
+*.sqlite
+*.db
