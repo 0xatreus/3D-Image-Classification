@@ -26,16 +26,14 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
 
 ## 📂 Project Structure
 
-
-3D-Image-Classification/
-│── app.py # Flask web app
-│── models/ # Trained models (.pth ignored by git)
-│── utils/ # Helper functions (data loaders, metrics, etc.)
-│── templates/ # HTML templates for Flask
-│── static/ # CSS/JS assets
-│── README.md # This file
-│── requirements.txt # Python dependencies
-│── .gitignore # Ignored files (venv, checkpoints, etc.)
+- **app.py** → Flask web app  
+- **models/** → Trained models (`.pth` files ignored by git)  
+- **utils/** → Helper functions (data loaders, metrics, etc.)  
+- **templates/** → HTML templates for Flask  
+- **static/** → CSS/JS assets  
+- **requirements.txt** → Python dependencies  
+- **.gitignore** → Ignored files (venv, checkpoints, etc.)  
+- **README.md** → Project documentation  
 
 
 ---
@@ -58,18 +56,18 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
    cd 3D-Image-Classification
    ```
 
-Create a virtual environment:
+2. Create a virtual environment:
   ```python
   python3 -m venv venv
   source venv/bin/activate
   ```
 
-Install dependencies:
+3. Install dependencies:
   ```python
   pip install -r requirements.txt
   ```
 
-Run the Flask app:
+4. Run the Flask app:
   ```python
   python app.py
   ```
@@ -83,7 +81,7 @@ Run the Flask app:
   Objects represented as meshes, point clouds, and rendered views.
 
   Download: ModelNet Dataset
-
+  ```
 🛠️ Tech Stack
   ```
   Python 3.10+
