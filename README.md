@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="assets/banner.png" alt="3D Image Classification Banner" width="100%">
-</p>
-
-
 📘 README.md
 # 3D Image Classification Project
 
