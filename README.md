@@ -50,14 +50,13 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
 ---
 
 ## ⚙️ Installation & Setup
-1. Clone the repository:
-
-   ```bash
+1. Clone the repository
+   ```python
    git clone https://github.com/0xatreus/3D-Image-Classification.git
    cd 3D-Image-Classification
    ```
 
-3. Create a virtual environment:
+2. Create a virtual environment:
   
   ```python
   python3 -m venv venv
@@ -84,7 +83,7 @@ This repository implements **PointNet++**, **PointMLP**, and **RotationNet**, tr
 
   Objects represented as meshes, point clouds, and rendered views.
 
-  Download: ModelNet Dataset
+  Download: [ModelNet Dataset](https://modelnet.cs.princeton.edu/)
   ```
 ## 🛠️ Tech Stack
   ```
